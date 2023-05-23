@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h3> Calculator :-</h3>
+    <div class="container_box">
+        <div id="container">
+            <input id="pre" type="text">
+            <input id="display" type="text">
+            <div class="Row1">
+                <button class="Col1 Button text" onclick="click(this)">C</button>
+                <button class="Col1 Button" onclick="click(this)">Lcm</button>
+                <button class="Col1 Button" value="!">X!</button>
+                <button class="Col1 Button ">(</button>
+                <button class="Col1 Button ">)</button>
+                <button class="Col1 Button" value="root">&radic;</button>
+                <button class="Col1 Button text" value="/">&divide</button>
+            </div>
+            <div class="Row2">
+                <button class="Col2 Button ">%</button>
+                <button class="Col2 Button">sin</button>
+                <button class="Col2 Button" value="^3">x<sup>3</sup></button>
+                <button class="Col2 Button button">7</button>
+                <button class="Col2 Button button">8</button>
+                <button class="Col2 Button button">9</button>
+                <button class="Col2 Button text" value="*">&times;</button>
+            </div>
+            <div class="Row3">
+                <button class="Col3 Button">Gcf</button>
+                <button class="Col3 Button">cos</button>
+                <button class="Col3 Button" value="^2">x<sup>2</sup></button>
+                <button class="Col3 Button button">4</button>
+                <button class="Col3 Button button">5</button>
+                <button class="Col3 Button button">6</button>
+                <button class="Col3 Button text">-</button>
+            </div>
+            <div class="Row4">
+                <button class="Col4 Button" value='π'>'&pi;'</button>
+                <button class="Col4 Button">tan</button>
+                <button class="Col4 Button" value="1/displaytext">1/x</button>
+                <button class="Col4 Button button">1</button>
+                <button class="Col4 Button button">2</button>
+                <button class="Col4 Button button">3</button>
+                <button class="Col4 Button text">+</button>
+            </div>
+            <div class="Row5">
+                <button class="Col5 Button text">.</button>
+                <button class="Col5 Button">lg</button>
+                <button class="Col5 Button" value="e^x">e<sup>x</sup></button>
+                <button class="Col5 Button button">0</button>
+                 <button class="Col5 Button text">=</button>
+                 <button class="Col5 Button">col1</button>
+                <button class="Col5 Button text">&larr;</button>
+            </div>
+            
+        </div>
+    </div>
+    <section >
+        <h3>How to use</h3>
+       <ol class="list">
+        <li>Basic operation (+,/,*,-)
+            <ul>
+                <li>You have to just write your expression and you have to click '=' button in Calculator </li>
+            </ul>
+        </li>
+        <li>Algoritham operation (X!,1/x,x<sup>2</sup>,x<sup>3</sup>,&radic;,%,&pi; )
+        <ul>
+            <li>
+                for all these function you have write your expression and then click on that button to calculate result
+            </li>
+            <li>Like to use x<sup>2</sup> for 3 so first write 3 and click on x<sup>2</sup> and then you get 9 </li>
+        </ul>
+    </li>
+        <li>Trigonemetric operation (sin,cos,tan)
+            <ul>
+                <li> for all these function you have write your expression and then click on that button to calculate result</li>
+                <li>Like to use sin for 45 deg sin and so first write 45 and then you click sin and then get 0.7071067811865475 </li>
+                <li>This will get exact value in decimal</li>
+            </ul>
+        </li>
+        <li>Calculus operator (log and exponential)
+            <ul>
+                <li> for all these function you have write your expression and then click on that button to calculate result</li>
+                <li>Like to use log for 1 and so first write 1 and then click on lg and  you get 1</li>
+            </ul>
+        </li>
+        <li>specific operator (Lcm,Gcf,C,&larr;)
+            <ul>
+                <li>'C' use to clear all expression and result</li>
+                <li>&larr; is used to clear expression by one one charcter</li>
+                <li>Lcm,Gcf is used to find lowest common factor and greatest common factor of two no. which are separated by comma respectively</li>
+                <li>if you have to find lcm of 7 and 14 then you have to write 7 and then ',' and 14 and then click on lcm and then you got your result as 14</li>
+            </ul>
+        </li>
+       </ol>
+       <li class="ip"> you have to give valid expression for best result</li>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

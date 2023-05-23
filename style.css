@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Slab&display=swap');
+
+.container_box {
+    display: flex;
+    border: none;
+}
+
+#container {
+    margin: auto;
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Row1,
+.Row2,
+.Row3,
+.Row4,
+.Row5,
+.Row6,
+.Row7 {
+    display: flex;
+    margin: auto 0px;
+    justify-content: space-around;
+}
+
+.Button {
+    cursor: pointer;
+    width: 13%;
+    height: 30px;
+    background-color: rgba(140, 125, 125, 0.114);
+    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    ;
+}
+
+.Button:hover {
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+#display {
+    border: none;
+    width: 95%;
+    height: 10%;
+    margin: 2px auto;
+    background-color: rgba(169, 169, 169, 0.444);
+    text-align: end;
+    font-size: larger;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid rgba(0, 0, 255, 0.548);
+    border-radius: 5px;
+}
+
+#pre {
+    width: 95%;
+    margin: 2px auto;
+    height: 4%;
+    border: none;
+    text-align: end;
+}
+
+#pre:focus {
+    outline: none;
+}
+
+.Row5 {
+    align-items: center;
+}
+
+.button {
+    background-color: rgba(128, 128, 128, 0.686);
+}
+
+.button:hover {
+    background-color: rgba(128, 128, 128, 0.878);
+}
+
+.text {
+    font-size: x-large;
+}
+
+.Row5 button:nth-child(5) {
+    flex-grow: 1;
+    height: 40px;
+    background-color: #1919e2cc;
+    color: white;
+    max-width: 120px;
+}
+
+.Row5 button:nth-child(5):hover {
+    background-color: blue;
+}
+
+.Row5 button:nth-child(6) {
+    display: none;
+}
+
+.Row5 button:nth-child(7) {
+    color: blue;
+    border-color: black;
+}
+
+.list {
+    list-style-type: square;
+    color: rgba(0, 0, 0, 0.923);
+}
+.ip{
+    list-style:disc;
+    font-weight:bold;
+}
+section {
+    font-family: 'Roboto Slab', serif;
+}
